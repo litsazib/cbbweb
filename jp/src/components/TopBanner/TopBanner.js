@@ -132,7 +132,7 @@ class TopBanner extends Component {
             }
             if(languages === "en"){
                 window.setTimeout(function(){
-                window.location.href = "/";
+                window.location.href = "../";
                 }, 1000);
             }
             if(languages === "jp"){
