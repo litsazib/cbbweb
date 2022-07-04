@@ -52,7 +52,7 @@ class TopBanner extends Component {
         $(".languages-switch a").on('click', function(e) {
             var dataPosition = $(this).attr("data-postion");
 
-            if(dataPosition == 2){
+            if(dataPosition === 2){
                 return false;
             }
 
@@ -67,30 +67,30 @@ class TopBanner extends Component {
                 if(dataPosition == postion){
                 $(this).addClass("actived");
                 }
-                if(dataPosition == 1){
+                if(dataPosition === 1){
 
-                if(postion == 1){
+                if(postion === 1){
                     $(this).attr("data-postion", 2);
                 }
 
-                if(postion == 2){
+                if(postion === 2){
                     $(this).attr("data-postion", 3);
                 }
 
-                if(postion == 3){
+                if(postion === 3){
                     $(this).attr("data-postion", 1);
                 }
                 }
-                if(dataPosition == 3){
-                if(postion == 1){
+                if(dataPosition === 3){
+                if(postion === 1){
                     $(this).attr("data-postion", 3);
                 }
 
-                if(postion == 2){
+                if(postion === 2){
                     $(this).attr("data-postion", 1);
                 }
 
-                if(postion == 3){
+                if(postion === 3){
                     $(this).attr("data-postion", 1);
                 }
                 }
