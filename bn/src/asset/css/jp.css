@@ -1,0 +1,125 @@
+body {
+  font-family: Verdana, Arial, sans-serif;
+}
+.navAnimated {
+  font-size: 14px;
+}
+.btnGetInTouch a {
+  font-size: 13px;
+}
+/*all heading*/
+.aboutUsSection .container .aboutSectionDflex .leftContent h2,
+.serviceSection .container .titleSection p,
+.whatMakesUsDifferent .container .titleSection h3,
+.skillSection .container .headingSction p,
+.qualifiedSection .container .payFor .title h3,
+.faqSection .container .ourFaqContent .titleArea h2,
+.ourTeamSection .container .titleSection p,
+.contactUsSection .container .innerContain .contactFormSection .titleSection p,
+.ourBlog .container .titleSection p {
+  font-size: 35px;
+}
+.topSection .topContain .pioneer .pioneerText p {
+  font-size: 40px;
+}
+@media (max-width: 1279px) {
+  .topSection .topContain .pioneer .pioneerText p {
+    font-size: 3vw;
+  }
+}
+@media (max-width: 415px) {
+  .topSection .topContain .pioneer .pioneerText p {
+    font-size: 6vw;
+  }
+}
+.topSection .pcbText p {
+  font-size: 35px;
+}
+@media (max-width: 1279px) {
+  .topSection .pcbText p {
+    font-size: 3vw;
+  }
+}
+.topSection .topContain .pioneer .description .lineUp {
+  font-size: 15px;
+  line-height: 29px;
+}
+.serviceSection .container .banners .banner .owl-item .bannerItem h2 {
+  font-size: 22px;
+}
+.ourTeamSection .container .innerBox .namePosition p {
+  font-size: 14px;
+}
+.ourTeamSection .container .innerBox .namePosition h3 {
+  font-size: 12px;
+}
+.qualifiedSection .container .payFor .description .getInTouch {
+  font-size: 13px;
+}
+.serviceSection .container .banners .banner .owl-item .bannerItem p {
+  font-size: 15px;
+}
+.whatMakesUsDifferent .container .bottomSection .item .content {
+  font-size: 15px;
+}
+.qualifiedSection .container .payFor .description p {
+  font-size: 15px;
+}
+.qualifiedSection .container .ourProject .box .contain {
+  font-size: 15px;
+}
+.qualifiedSection .container .ourProject .box .title h3 {
+  font-size: 13px;
+}
+.qualifiedSection .container .ourProject .box .title h3 .number {
+  font-size: 33px;
+}
+.faqSection .container .optionsRap .whyOptions .optionsRight .faqContentsVessel .tab .content {
+  font-size: 15px;
+  line-height: 29px;
+}
+/*About us*/
+@media (max-width: 1120px) {
+  .aboutUsSection .container .aboutSectionDflex .rightContent .spinxConnect .spinxAccoTitle {
+    font-size: 1.5vw;
+  }
+}
+@media (max-width: 768px) {
+  .aboutUsSection .container .aboutSectionDflex .rightContent .spinxConnect .spinxAccoTitle {
+    font-size: 15px;
+  }
+}
+@media (max-width: 350px) {
+  .aboutUsSection .container .aboutSectionDflex .rightContent .spinxConnect .spinxAccoTitle {
+    font-size: 13px;
+  }
+}
+.aboutUsSection .container .aboutSectionDflex .rightContent .spinxConnect .spinxAccoTitle .showContent p {
+  font-size: 15px;
+}
+@media (max-width: 1120px) {
+  .aboutUsSection .container .aboutSectionDflex .rightContent .spinxConnect .spinxAccoTitle .showContent p {
+    font-size: 1.4vw;
+  }
+}
+@media (max-width: 768px) {
+  .aboutUsSection .container .aboutSectionDflex .rightContent .spinxConnect .spinxAccoTitle .showContent p {
+    font-size: 15px;
+  }
+}
+@media (max-width: 1120px) {
+  .aboutUsSection .container .aboutSectionDflex .rightContent .spinxConnect .current {
+    font-size: 1.5vw;
+  }
+}
+@media (max-width: 768px) {
+  .aboutUsSection .container .aboutSectionDflex .rightContent .spinxConnect .current {
+    font-size: 15px;
+  }
+}
+@media (max-width: 350px) {
+  .aboutUsSection .container .aboutSectionDflex .rightContent .spinxConnect .current {
+    font-size: 13px;
+  }
+}
+/*About us*/

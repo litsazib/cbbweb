@@ -1,0 +1,17 @@
+.topSection .topContain .pioneer .pioneerText p {
+  font-size: 45px;
+}
+@media only screen and (max-width: 767px) {
+  .topSection .topContain .pioneer .pioneerText p {
+      font-size: 8vw;
+  }
+  .skillSection .container .headingSction p {
+    font-size: 30px;
+  }
+}
+.faqSection .container .optionsRap .whyOptions .optionsRight .faqContentsVessel .tab .label {
+  line-height: 30px;
+}
+.faqSection .container .optionsRap .whyOptions .optionsRight .faqContentsVessel .tab .content {
+  font-size: 15px;
+}
