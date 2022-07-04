@@ -3,7 +3,7 @@ import {BrowserRouter} from "react-router-dom";
 import AppRoute from "./router/AppRoute";
 function App() {
   return (
-    <BrowserRouter basename='/bn'>
+    <BrowserRouter basename='/cbbreact/bn'>
       <AppRoute/>
     </BrowserRouter>
   );
