@@ -181,29 +181,29 @@ class TopBanner extends Component {
                         <div className="mainMenu">
                             <ul className="navAnimated">
                                 <li className='about'>
-                                    <Link data-hover="আমাদের সম্পর্কে" to="about" spy={true} smooth={true} offset={-100} duration={500}>আমাদের সম্পর্কে</Link>
+                                    <Link data-hover="企業情報" to="about" spy={true} smooth={true} offset={-100} duration={500}>企業情報</Link>
                                 </li>
                                 <li>
-                                    <Link data-hover="সেবাসমূহ" to="service" spy={true} smooth={true} offset={-100} duration={500}>সেবাসমূহ</Link>
+                                    <Link data-hover="サービス" to="service" spy={true} smooth={true} offset={-100} duration={500}>サービス</Link>
                                 </li>
                                 <li>
-                                    <Link data-hover="শক্তিমত্তা" to="strength" spy={true} smooth={true} offset={-100} duration={500}>শক্তিমত্তা</Link>
+                                    <Link data-hover="強さ" to="strength" spy={true} smooth={true} offset={-100} duration={500}>強さ</Link>
                                 </li>
                                 <li>
-                                    <Link data-hover="টিম" to="team" spy={true} smooth={true} offset={-100} duration={500}>টিম</Link>
+                                    <Link data-hover="チーム" to="team" spy={true} smooth={true} offset={-100} duration={500}>チーム</Link>
                                 </li>
                                 <li>
-                                    <Link data-hover="ব্লগ" to="blog" spy={true} smooth={true} offset={-100} duration={500}>ব্লগ</Link>
+                                    <Link data-hover="ブログ" to="blog" spy={true} smooth={true} offset={-100} duration={500}>ブログ</Link>
                                 </li>
                                 <li className="lang-menu">
                                     <div className="languages-switch">
                                         <a href="javascript:void(0);" className="" data-postion="1" data-lang="en">EN</a>
-                                        <a href="javascript:void(0);" className="actived" data-postion="2" data-lang="bn">BN</a>
-                                        <a href="javascript:void(0);" className="" data-postion="3"  data-lang="jp">JP</a>
+                                        <a href="javascript:void(0);" className="actived" data-postion="2" data-lang="jp">JP</a>
+                                        <a href="javascript:void(0);" className="" data-postion="3"  data-lang="bn">BN</a>
                                     </div>
                                 </li>
                                 <li className="btnGetInTouch">
-                                    <Link to="contact-us" spy={true} smooth={true} offset={-100} duration={500}>যোগাযোগ</Link>
+                                    <Link to="contact-us" spy={true} smooth={true} offset={-100} duration={500}>お問い合わせはこちら</Link>
                                 </li>
                             </ul>
                         </div>
@@ -216,13 +216,13 @@ class TopBanner extends Component {
                                 <div className="pioneer">
                                     <div className="slideShow pioneerText toutiao " id="1">
                                         <div className="slideDiv slide visible">
-                                            <p>সর্বোৎকৃষ্ট মানের সফটওয়্যার সল্যুশন প্রদান করতে</p>
+                                            <p>最高級のソリューションを提供することをお約束します</p>
                                         </div>
                                         <div className="slideDiv slide">
-                                            <p>সাইব্রিজ হল ভবিষ্যত সফটওয়্যার নির্মাণ শিল্পের পথপ্রদর্শক</p>
+                                            <p>サイブリッジは未来のソフトウェアの先駆者</p>
                                         </div>
                                         <div className="slideDiv slide">
-                                            <p>সাইব্রিজ আপনার ব্র্যান্ডকে প্রতিষ্ঠিত করতে সাহায্য করবে</p>
+                                            <p>サイブリッジはお客様のブランド構築するためお手伝いします</p>
                                         </div>
                                     </div>
                                     <div className="slideShow2" id="2" style={{ display: 'none' }}>
@@ -234,92 +234,92 @@ class TopBanner extends Component {
 
                                             <div className="pcbText">
                                                 <div className="textCenter">
-                                                <p>ওয়েব</p>
+                                                <p>ウェブ用</p>
                                                 </div>
                                             </div>
                                             <div className="description">
-                                                <p className="lineUp">আমরা সর্বোৎকৃষ্ট এবং টেকসই সমাধান প্রদান করে আমাদের গ্রাহকদের সাথে চমৎকার অংশীদারিত্ব গড়ে তুলি। মানব-কেন্দ্রিক পন্থা, ভবিষ্যত-সুরক্ষিত প্রযুক্তি এবং সর্বোত্তম নীতি অনুসরণের মাধ্যমে গ্রাহকদের সুখ নিশ্চিত করাই আমাদের লক্ষ্য।</p>
+                                                <p className="lineUp">弊社は堅牢で持続可能なソリューションを提供することで、ダイナミックなパートナーシップを構築しています。弊社の使命は人間中心のアプローチ、将来を見据えたテクノロジー、ベストプラクティスを通じて、お客様の幸せを確保することです。</p>
                                             </div>
                                         </div>
                                         <div className="slideDiv slide technology">
                                             <div className="pcbText">
                                                 <div className="textCenter">
-                                                <p>স্মার্টফোন</p>
+                                                <p>スマートフォン用</p>
                                                 </div>
                                             </div>
                                             <div className="description">
-                                                <p className="lineUp">আমাদের রয়েছে একদল উদ্যমী এবং অভিজ্ঞ সফটওয়্যার ইঞ্জিনিয়ার যারা আমাদের গ্রাহকদের কী প্রয়োজন তা পুঙ্খানুপুঙ্খভাবে বুঝতে পারে। সুতরাং, আমরা সর্বোচ্চ উৎকর্ষ, সৃজনশীলতা এবং উদ্ভাবনের সাথে আপনার সফটওয়্যার তৈরি করি। </p>
+                                                <p className="lineUp">専門家として、弊社はお客様の何が必要をか徹底的に理解しています。だから、私たちは、最大限の卓越性、創造性、革新性をもって、お客様のソフトウェアを作ります。</p>
                                             </div>
                                         </div>
                                         <div className="slideDiv slide technology">
                                             <div className="pcbText">
                                                 <div className="textCenter">
-                                                <p>ক্লাউড</p>
+                                                <p>クラウド用</p>
                                                 </div>
                                             </div>
                                             <div className="description">
-                                                <p className="lineUp"> আমাদের রয়েছে একদল উদ্যমী এবং অভিজ্ঞ সফটওয়্যার ইঞ্জিনিয়ার যারা আমাদের গ্রাহকদের কী প্রয়োজন তা পুঙ্খানুপুঙ্খভাবে বুঝতে পারে। সুতরাং, আমরা সর্বোচ্চ উৎকর্ষ, সৃজনশীলতা এবং উদ্ভাবনের সাথে আপনার সফটওয়্যার তৈরি করি। </p>
+                                                <p className="lineUp">専門家として、弊社はお客様の何が必要をか徹底的に理解しています。だから、私たちは、最大限の卓越性、創造性、革新性をもって、お客様のソフトウェアを作ります。 </p>
                                             </div>
                                         </div>
                                         <div className="slideDiv slide technology">
                                             <div className="pcbText">
                                                 <div className="textCenter">
-                                                <p>আধুনিক প্রযুক্তি</p>
+                                                <p>現代の技術</p>
                                                 </div>
                                             </div>
                                             <div className="description">
-                                                <p className="lineUp">আমাদের নির্ভরযোগ্য সফটওয়্যার অ্যাপ্লিকেশনগুলো অবশ্যই আপনার ব্যবসায় বাড়তি ভ্যালু যোগ করবে এবং আপনার গ্রাহকরা সর্বাধিক ইউজারফ্রেন্ডলি, সুরক্ষিত এবং আপ-টু-ডেট গোপনীয়তারক্ষায়-সক্ষম অ্যাপ্লিকেশন এক্সপেরিয়েন্স করবে।</p>
+                                                <p className="lineUp">弊社の信頼できるソフトウェアソリューションは間違いなくお客様のビジネスに付加価値を与え、御社の顧客は最もユーザーフレンドリーで安全な最新のプライバシー対応アプリケーションを体験することができます。</p>
                                             </div>
                                             
                                         </div>
                                         <div className="slideDiv slide technology">
                                             <div className="pcbText">
                                                 <div className="textCenter">
-                                                <p>সফটওয়্যার নিরাপত্তা</p>
+                                                <p>ソフトウェア・セキュリティ</p>
                                                 </div>
                                             </div>
                                             <div className="description">
-                                                <p className="lineUp">আমাদের নির্ভরযোগ্য সফটওয়্যার অ্যাপ্লিকেশনগুলো অবশ্যই আপনার ব্যবসায় বাড়তি ভ্যালু যোগ করবে এবং আপনার গ্রাহকরা সর্বাধিক ইউজারফ্রেন্ডলি, সুরক্ষিত এবং আপ-টু-ডেট গোপনীয়তারক্ষায়-সক্ষম অ্যাপ্লিকেশন এক্সপেরিয়েন্স করবে।</p>
+                                                <p className="lineUp">弊社の信頼できるソフトウェアソリューションは間違いなくお客様のビジネスに付加価値を与え、御社の顧客は最もユーザーフレンドリーで安全な最新のプライバシー対応アプリケーションを体験することができます。</p>
                                             </div>
                                         </div>
                                         <div className="slideDiv slide technology">
                                             <div className="pcbText">
                                                 <div className="textCenter">
-                                                <p>ব্যবহারকারীর গোপনীয়তা</p>
+                                                <p>ユーザーのプライバシー</p>
                                                 </div>
                                             </div>
                                             <div className="description">
-                                                <p className="lineUp">আমাদের নির্ভরযোগ্য সফটওয়্যার অ্যাপ্লিকেশনগুলো অবশ্যই আপনার ব্যবসায় বাড়তি ভ্যালু যোগ করবে এবং আপনার গ্রাহকরা সর্বাধিক ইউজারফ্রেন্ডলি, সুরক্ষিত এবং আপ-টু-ডেট গোপনীয়তারক্ষায়-সক্ষম অ্যাপ্লিকেশন এক্সপেরিয়েন্স করবে।</p>
+                                                <p className="lineUp">弊社の信頼できるソフトウェアソリューションは間違いなくお客様のビジネスに付加価値を与え、御社の顧客は最もユーザーフレンドリーで安全な最新のプライバシー対応アプリケーションを体験することができます。</p>
                                             </div>
                                         </div>
                                         <div className="slideDiv slide technology">
                                             <div className="pcbText">
                                                 <div className="textCenter">
-                                                <p>টেকসই</p>
+                                                <p>持続可能な</p>
                                                 </div>
                                             </div>
                                             <div className="description">
-                                                <p className="lineUp">সাইব্রিজ বাংলাদেশ নতুন সকল প্রধান টেকনোলোজিতে তার শ্রেষ্ঠত্ব এবং দক্ষ প্রকল্প ব্যবস্থাপনার জন্য স্বীকৃত। আমাদের উপর বিশ্বাস রাখুন এবং আপনার ব্র্যান্ডকে নির্ভরযোগ্য, উদ্ভাবনী এবং গতিশীল করতে আমাদের ওয়ান-স্টপ টেক পরিষেবাগুলো নিন।</p>
+                                                <p className="lineUp">サイブリッジ・バングラデシュは、主要なテクノロジーの卓越性と効率的なプロジェクト管理で知られています。弊社を信じて、弊社のワンストップ技術サービスを利用して、お客様のブランドを信頼でき、革新的でダイナミックなものにしてください。</p>
                                             </div>
                                         </div>
                                         <div className="slideDiv slide technology">
                                             <div className="pcbText">
                                                 <div className="textCenter">
-                                                <p>বিশ্বস্ত</p>
+                                                <p>頼もしい</p>
                                                 </div>
                                             </div>
                                             <div className="description">
-                                                <p className="lineUp">সাইব্রিজ বাংলাদেশ নতুন সকল প্রধান টেকনোলোজিতে তার শ্রেষ্ঠত্ব এবং দক্ষ প্রকল্প ব্যবস্থাপনার জন্য স্বীকৃত। আমাদের উপর বিশ্বাস রাখুন এবং আপনার ব্র্যান্ডকে নির্ভরযোগ্য, উদ্ভাবনী এবং গতিশীল করতে আমাদের ওয়ান-স্টপ টেক পরিষেবাগুলো নিন।</p>
+                                                <p className="lineUp">サイブリッジ・バングラデシュは、主要なテクノロジーの卓越性と効率的なプロジェクト管理で知られています。弊社を信じて、弊社のワンストップ技術サービスを利用して、お客様のブランドを信頼でき、革新的でダイナミックなものにしてください。</p>
                                             </div>
                                         </div>
                                         <div className="slideDiv slide technology">
                                             <div className="pcbText">
                                                 <div className="textCenter">
-                                                <p>সফল</p>
+                                                <p>成功</p>
                                                 </div>
                                             </div>
                                             <div className="description">
-                                                <p className="lineUp">সাইব্রিজ বাংলাদেশ নতুন সকল প্রধান টেকনোলোজিতে তার শ্রেষ্ঠত্ব এবং দক্ষ প্রকল্প ব্যবস্থাপনার জন্য স্বীকৃত। আমাদের উপর বিশ্বাস রাখুন এবং আপনার ব্র্যান্ডকে নির্ভরযোগ্য, উদ্ভাবনী এবং গতিশীল করতে আমাদের ওয়ান-স্টপ টেক পরিষেবাগুলো নিন।</p>
+                                                <p className="lineUp">サイブリッジ・バングラデシュは、主要なテクノロジーの卓越性と効率的なプロジェクト管理で知られています。弊社を信じて、弊社のワンストップ技術サービスを利用して、お客様のブランドを信頼でき、革新的でダイナミックなものにしてください。</p>
                                             </div>
                                         </div>
                                         

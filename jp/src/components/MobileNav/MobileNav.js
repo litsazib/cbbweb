@@ -47,15 +47,15 @@ class MobileNav extends Component {
         <div id="mySidenav" className="sidenav">
             <a href="#" className="closebtn" id="closeNav" onClick={this.hideNav}>&times;</a>
             <ul className="spMenuLinks">
-              <li><Link to="about" spy={true} smooth={true} offset={-100} duration={500} onClick={this.onNavLinkClick} >আমাদের সম্পর্কে</Link></li>
-              <li><Link to="service" spy={true} smooth={true} offset={-100} duration={500} onClick={this.onNavLinkClick} >সেবাসমূহ</Link></li>
-              <li><Link to="strength" spy={true} smooth={true} offset={-100} duration={500} onClick={this.onNavLinkClick} >শক্তিমত্তা</Link></li>
-              <li><Link to="team" spy={true} smooth={true} offset={-100} duration={500} onClick={this.onNavLinkClick} >টিম</Link></li>
-              <li><Link to="blog" spy={true} smooth={true} offset={-100} duration={500} onClick={this.onNavLinkClick} >ব্লগ</Link></li>
-              <li className="btnGetInTouch"><Link to="contact-us" spy={true} smooth={true} offset={300} duration={500} onClick={this.onNavLinkClick} >যোগাযোগ</Link></li>
+              <li><Link to="about" spy={true} smooth={true} offset={-100} duration={500} onClick={this.onNavLinkClick} >企業情報</Link></li>
+              <li><Link to="service" spy={true} smooth={true} offset={-100} duration={500} onClick={this.onNavLinkClick} >サービス</Link></li>
+              <li><Link to="strength" spy={true} smooth={true} offset={-100} duration={500} onClick={this.onNavLinkClick} >強さ</Link></li>
+              <li><Link to="team" spy={true} smooth={true} offset={-100} duration={500} onClick={this.onNavLinkClick} >チーム</Link></li>
+              <li><Link to="blog" spy={true} smooth={true} offset={-100} duration={500} onClick={this.onNavLinkClick} >ブログ</Link></li>
+              <li className="btnGetInTouch"><Link to="contact-us" spy={true} smooth={true} offset={300} duration={500} onClick={this.onNavLinkClick} >お問い合わせはこちら</Link></li>
             </ul>
             <div className="snsLink">
-                <h2>অনুসরণ করুন</h2>
+                <h2>フォローする</h2>
                 <div className="images">
                     <a href="https://www.facebook.com/CybridgeBangladesh" target="_blank" rel="noreferrer"><img src={icon_fb} alt="icon_fb" /></a>
                     <a href="https://twitter.com/cybridge" target="_blank" rel="noreferrer"><img src={icon_twitter}  alt="icon_twitter" /></a>

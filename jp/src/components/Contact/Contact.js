@@ -111,15 +111,15 @@ class Contact extends Component {
                     </div>
                     <div className="contactFormSection wow fadeInRight">
                         <div className="titleSection">
-                            <h2>যোগাযোগ</h2>
-                            <p>যে কোন প্রশ্নের জন্য নিম্নলিখিত ফর্ম সাবমিট করুন</p>
+                            <h2>お問い合わせはこちら</h2>
+                            <p>お問い合わせは以下のフォームからお願いいたします</p>
                         </div>
                         <div className="formSection">
                             <form id="contactForm" onSubmit={this.submitForm}>
                                 <div className="inputSection">
                                     <div className="labelWithInput">
                                         <div className="inputLabel">
-                                            নাম*
+                                            お名前*
                                         </div>
                                         <div className="inputText">
                                             <input type="text" id="name" value={name} onChange={this.handleCHange('name')} />
@@ -133,7 +133,7 @@ class Contact extends Component {
                                 <div className="inputSection">
                                     <div className="labelWithInput">
                                         <div className="inputLabel">
-                                            ইমেইল*
+                                            メール*
                                         </div>
                                         <div className="inputText">
                                             <input type="text" id="email" value={email} onChange={this.handleCHange('email')} />
@@ -147,11 +147,11 @@ class Contact extends Component {
                                 <div className="inputSection messageSection">
                                     <div className="labelWithInput">
                                         <div className="inputLabel">
-                                            ম্যাসেজ*
+                                            メッセージ*
                                         </div>
                                         <div className="inputTextarea">
                                             <textarea type="text" id="message" value={message} onChange={this.handleCHange('message')}></textarea>
-                                            <span className="remain-text"><em id="remain">৩০০</em> টি অক্ষর বাকি</span>
+                                            <span className="remain-text">残り<em id="remain">300</em> 文字</span>
                                         </div>
                                     </div>
                                     <div className="messageErrorMessage">
@@ -167,14 +167,14 @@ class Contact extends Component {
                                 </div>
 
                                 <div className="inputSection buttonSection">
-                                    <input className="contactbtn" type="submit" name="submit" value="পাঠান" />
+                                    <input className="contactbtn" type="submit" name="submit" value="送信" />
                                 </div>
                             </form>
 
                             <div id="emailModal" className="modalPopup">
                                 <div className="modalContent">
                                     <span className="close">&times;</span>
-                                    <p>সফলভাবে আপনার প্রশ্ন পাঠান</p>
+                                    <p>クエリを正常に送信します。</p>
                                 </div>
 
                             </div>

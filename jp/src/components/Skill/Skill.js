@@ -27,8 +27,8 @@ class Skill extends Component {
           <div className="skillSection clearfix wow">
             <div className="container">
               <div className="headingSction wow fadeInUp" data-wow-delay="0.7s">
-                  <h2>আমাদের দক্ষতা</h2>
-                  <p>আমাদের সফটওয়্যার ইঞ্জিনিয়াররা যে সকল টুল ও প্রযুক্তি ব্যবহার করে</p>
+                  <h2>スキル</h2>
+                  <p>ソフトウェアエンジニアが使っているツールと技術</p>
               </div>
               <div id="tagcloud">
                   <svg width="100%" height="100%" viewBox="0 0 1152 701">

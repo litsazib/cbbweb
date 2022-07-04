@@ -7,6 +7,9 @@ body {
 .btnGetInTouch a {
   font-size: 13px;
 }
+.contactUsSection .container .innerContain .contactFormSection .formSection .inputSection .labelWithInput .inputLabel {
+  width: 86px;
+}
 /*all heading*/
 .aboutUsSection .container .aboutSectionDflex .leftContent h2,
 .serviceSection .container .titleSection p,
@@ -18,6 +21,12 @@ body {
 .contactUsSection .container .innerContain .contactFormSection .titleSection p,
 .ourBlog .container .titleSection p {
   font-size: 35px;
+}
+.ourBlog .container .containSection .rowItem .rowContain .link .bottomContain h3 {
+  font-size: 20px;
+}
+.ourBlog .container .containSection .rowItem .rowContain .link .bottomContain p {
+  font-size: 15px;
 }
 .topSection .topContain .pioneer .pioneerText p {
   font-size: 40px;
@@ -123,3 +132,15 @@ body {
   }
 }
 /*About us*/
+@media (max-width: 767px) {
+  .sidenav .closebtn {
+    font-size: 3rem;
+  }
+  .sidenav .spMenuLinks .btnGetInTouch a {
+    max-width: 100%;
+  }
+  .ourBlog .container .titleSection {
+    width: 95%;
+    margin: 0 auto;
+  }
+}

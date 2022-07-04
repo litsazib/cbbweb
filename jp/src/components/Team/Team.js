@@ -45,8 +45,8 @@ class Team extends Component {
             <div className="ourTeamSection" id="team">
             <div className="container">
                 <div className="titleSection wow fadeIn">
-                    <h3>আমাদের টিম</h3>
-                    <p>আমাদের প্রফেশনাল মেম্বার</p>
+                    <h3>チームについて</h3>
+                    <p>プロフェッショナル会員について</p>
                 </div>
 
                 <div className="innerBox wow fadeInUp">
@@ -70,8 +70,8 @@ class Team extends Component {
                             </div>
 
                             <div className="namePosition">
-                                <p>মোঃ আব্দুল হাকিম</p>
-                                <h3>সিওও</h3>
+                                <p>エムディ アブドゥル ハキム</p>
+                                <h3>最高執行責任者</h3>
                             </div>
                         </div>
                     </div>
@@ -83,8 +83,8 @@ class Team extends Component {
                             </div>
 
                             <div className="namePosition">
-                                <p>মাজহার আহমেদ</p>
-                                <h3>সিটিও</h3>
+                                <p>マザール アーメド</p>
+                                <h3>最高技術責任者</h3>
                             </div>
                         </div>
                     </div>
@@ -96,8 +96,8 @@ class Team extends Component {
                             </div>
 
                             <div className="namePosition">
-                                <p>মোঃ মিজান ইবনে ইউসুফ</p>
-                                <h3>ম্যানেজার, এইচআর এবং এডমিনিস্ট্রেশন</h3>
+                                <p>エムディ ミザン イブン ユスフ</p>
+                                <h3>マネジャー、人事・管理者</h3>
                             </div>
                         </div>
                     </div>
@@ -109,8 +109,8 @@ class Team extends Component {
                             </div>
 
                             <div className="namePosition">
-                                <p>উৎপল বিশ্বাস</p>
-                                <h3>সিনিয়র ওয়েব ডেভেলপমেন্ট</h3>
+                                <p>ウトゥパル ビスワス</p>
+                                <h3>TL、ウェブ開発</h3>
                             </div>
                         </div>
                     </div>
@@ -122,8 +122,8 @@ class Team extends Component {
                             </div>
 
                             <div className="namePosition">
-                                <p>রোকনুজ্জামান সজীব</p>
-                                <h3>সিনিয়র ফ্রন্টএন্ড ডেভেলপার</h3>
+                                <p>ルックニュッザマン サジブ</p>
+                                <h3>Sr.フロントエンドデベロッパー</h3>
                             </div>
                         </div>
                     </div>
@@ -135,8 +135,8 @@ class Team extends Component {
                             </div>
 
                             <div className="namePosition">
-                                <p>তোহমিনা আক্তার তমা</p>
-                                <h3>সিনিয়র ডিজাইনার</h3>
+                                <p>トホミナ アクター トマ</p>
+                                <h3>Sr. デザイナー</h3>
                             </div>
                         </div>
                     </div>
@@ -148,8 +148,8 @@ class Team extends Component {
                             </div>
 
                             <div className="namePosition">
-                                <p> কাজী আবদুল্লাহ আল মামুন</p>
-                                <h3>সিনিয়র সফটওয়্যার ইঞ্জিনিয়ার</h3>
+                                <p>カジ アブドゥラ アル マムン</p>
+                                <h3>Sr. ソフトウェアエンジニア</h3>
                             </div>
                         </div>
                     </div>
@@ -161,8 +161,8 @@ class Team extends Component {
                             </div>
 
                             <div className="namePosition">
-                                <p>মোঃ রিফাতুল ইসলাম চৌ</p>
-                                <h3>সিনিয়র সফটওয়্যার ইঞ্জিনিয়ার</h3>
+                                <p>エムディ リファトゥル イスラム チョー</p>
+                                <h3>Sr. ソフトウェアエンジニア</h3>
                             </div>
                         </div>
                     </div>
@@ -174,8 +174,8 @@ class Team extends Component {
                             </div>
 
                             <div className="namePosition">
-                                <p> মোঃ ফাহমিদ আল মাসুদ</p>
-                                <h3>সফটওয়্যার ইঞ্জিনিয়ার</h3>
+                                <p>エムディ ファミッド アル メースッド</p>
+                                <h3>ソフトウェアエンジニア</h3>
                             </div>
                         </div>
                     </div>
@@ -187,8 +187,8 @@ class Team extends Component {
                             </div>
 
                             <div className="namePosition">
-                                <p>মোঃ আব্দুল্লাহ আল মাহমুদ</p>
-                                <h3>সিনিয়র সফটওয়্যার ইঞ্জিনিয়ার</h3>
+                              <p>エムディ アブドゥラ アル マハムッド</p>
+                                <h3>Sr. ソフトウェアエンジニア</h3>
                             </div>
                         </div>
                     </div>
@@ -200,8 +200,8 @@ class Team extends Component {
                             </div>
 
                             <div className="namePosition">
-                                <p>সায়েদ আল মমিন</p>
-                                <h3>সিনিয়র সফটওয়্যার ইঞ্জিনিয়ার</h3>
+                                <p>サイードアルモミン</p>
+                                <h3>Sr. ソフトウェアエンジニア</h3>
                             </div>
                         </div>
                     </div>
@@ -213,8 +213,8 @@ class Team extends Component {
                             </div>
 
                             <div className="namePosition">
-                                <p>এ বি এম ফারুক রহমান</p>
-                                <h3>সিনিয়র সফটওয়্যার ইঞ্জিনিয়ার</h3>
+                                <p>ア ブ ム ファルク ラフマン</p>
+                                <h3>Sr. ソフトウェアエンジニア</h3>
                             </div>
                         </div>
                     </div>
@@ -226,8 +226,8 @@ class Team extends Component {
                             </div>
 
                             <div className="namePosition">
-                                <p>ফাহরিয়াদ হোসেন</p>
-                                <h3>সিনিয়র সফটওয়্যার ইঞ্জিনিয়ার</h3>
+                                <p>エムディー ファハリィヤード ホッセン</p>
+                                <h3>Sr. ソフトウェアエンジニア</h3>
                             </div>
                         </div>
                     </div>
@@ -239,8 +239,8 @@ class Team extends Component {
                             </div>
 
                             <div className="namePosition">
-                                <p>কানিজ আক্তার</p>
-                                <h3>ডিজাইনার</h3>
+                                <p>カニジ アクター</p>
+                                <h3>デザイナー</h3>
                             </div>
                         </div>
                     </div>
@@ -252,8 +252,8 @@ class Team extends Component {
                             </div>
 
                             <div className="namePosition">
-                                <p>মোঃ ফাতিন ইশতিয়াক</p>
-                                <h3>জেএলটি</h3>
+                                <p>エムディ ファティン イスティアク</p>
+                                <h3>JLT</h3>
                             </div>
                         </div>
                     </div>

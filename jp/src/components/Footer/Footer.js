@@ -24,7 +24,7 @@ class Footer extends Component {
               <div id="footerInner">
                   <div className="footerTop clearfix">
                       <div className="cbGroup">
-                          <h4 className="headline">সাইব্রিজ বাংলাদেশ</h4>
+                          <h4 className="headline">サイブリッジグループ</h4>
                           <div className="cbGroupIcon">
                               <a href="https://www.cybridge.jp" rel="noreferrer" target="_blank"><img src={img_logo01} alt="img_logo01" /></a>
                               <a href="https://bd.cybridge.jp" rel="noreferrer" target="_blank"><img src={img_logo02} alt="img_logo02" /></a>
@@ -34,24 +34,24 @@ class Footer extends Component {
                       <div className="address">
                           <div className="dflexAddress">
                               <div className="addressPhoneMailBlock">
-                                  <h2>বাংলাদেশ অফিস</h2>
+                                  <h2>バングラデシュ事務所</h2>
                                   <div className="addressBlock clearfix">
-                                      <div className="address addressTxt">হাউজ-২৫৭, রোড-১৯, ফ্লাট-A3,<br/> মহাখালী ডিওএইচ,<br/>ঢাকা-১২০৬, বাংলাদেশ<br/>+৮৮০ ১৭৪ ৯৭৫৭৯৫৭</div>
+                                      <div className="address addressTxt">建物: 257、道路: 19、アパート: A3、モハカリ DOHS、<br/>ダッカ-1206、バングラデシュ<br/>+880 174 9757957</div>
                                   </div>
                                   <div className="mailBlock clearfix">
                                       <div className="mail"><img src={img_email} alt=""/></div>
                                   </div>
                               </div>
                               <div className="japanOffice">
-                                  <h2>জাপান অফিস</h2>
+                                  <h2>日本事務所</h2>
                                   <div className="addressBlock clearfix">
-                                      <div className="address addressTxt">〒151-0051<br/>৫-২৭-৫ সেন্দাগায়া,শিবুয়া-কু <br/>টোকিও-তো,জাপান</div>
+                                      <div className="address addressTxt">〒151-0051<br/>東京都渋谷区千駄ヶ谷5-27-5リンクスクエア新宿14F</div>
                                   </div>
                               </div>
                           </div>
                       </div>
                       <div className="sns">
-                          <h2>অনুসরণ করুন</h2>
+                          <h2>フォローする</h2>
                           <ul>
                               <li><a href="https://www.facebook.com/CybridgeBangladesh" target="_blank" rel="noreferrer"><img className="icon_fb" src={icon_fb} onMouseOver={e => (e.currentTarget.src = icon_fb_h)} onMouseOut={e=>(e.currentTarget.src= icon_fb)} alt="icon_fb"/></a></li>
                               <li><a href="https://twitter.com/cybridge" target="_blank" rel="noreferrer"><img className="icon_twitter" src={icon_twitter} onMouseOver={e=>(e.currentTarget.src=icon_twitter_h)} onMouseOut={e=>(e.currentTarget.src=icon_twitter)}  alt="icon_twitter"/></a></li>
@@ -65,7 +65,7 @@ class Footer extends Component {
                   <div className="footerBottom">
                       <div className="top"></div>
                       <div className="bottom clearfix">
-                          <div>কপিরাইট © সাইব্রিজ বাংলাদেশ সর্বস্বত্ব সংরক্ষিত</div>
+                          <div>Copyright©CYBRiDGEバングラデシュ無断複写・転載を禁じます。</div>
                       </div>
                   </div>
               </div>

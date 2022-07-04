@@ -41,8 +41,8 @@ class Blog extends Component {
             <div className="ourBlog clearfix" id="blog">
                 <div className="container">
                     <div className="titleSection wow fadeIn">
-                        <h3>আমাদের ব্লগ</h3>
-                        <p>সফটওয়্যার অ্যাপ্লিকেশন দিয়ে কি পরিমান শিল্পবিপ্লব ঘটছে তা দেখতে ও জানতে আপাদের ব্লগে চোখ রাখুন নিয়মিত।</p>
+                        <h3>私たちのブログ</h3>
+                        <p>最新のブログを読んで、今日の業界で何が起こっているかを知ってお願いいたします。</p>
                     </div>
 
                     <div className="containSection clearfix">
@@ -133,7 +133,7 @@ class Blog extends Component {
 
 
                         <div className="loadMoreBtn">
-                            <a href="#" id="loadMore" onClick={this.lodeEvent}>আরো</a>
+                            <a href="#" id="loadMore" onClick={this.lodeEvent}>もっと読み込む</a>
                         </div>
 
                     </div>

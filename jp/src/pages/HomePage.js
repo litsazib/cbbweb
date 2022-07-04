@@ -2,7 +2,7 @@ import React, { Component, Fragment } from 'react';
 import '../asset/css/animate.css';
 import '../asset/css/style.css';
 import '../asset/css/responsive.css';
-import '../asset/css/bn.css';
+import '../asset/css/jp.css';
 import WOW from 'wowjs';
 import TopBanner from "../components/TopBanner/TopBanner";
 import Brand from "../components/ClientProject/Brand";

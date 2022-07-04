@@ -24,13 +24,13 @@ class Strength extends Component {
                 <div className="ourQuilifiedContent">
                     <div className="payFor wow fadeInLeft">
                         <div className="title">
-                            <h2>আমাদের শক্তিমত্তা</h2>
-                            <h3>মানসম্পন্ন সফটওয়্যার সল্যুশনের জন্য অর্থ প্রদান করুন</h3>
+                            <h2>私たちの強み</h2>
+                            <h3>高品質のソフトウェアソリューションにお金を払います。</h3>
                         </div>
                         <div className="description">
-                            <p className="first">আমরা আপনার অর্থকে গুরুত্ব দিই এবং সর্বদা উৎকৃষ্ট মানের সফটওয়্যার সমাধান প্রদান করতে প্রতিশ্রুতিবদ্ধ। আমাদের ডেভেলপাররা আমাদের গ্রাহকদের জন্য সবচেয়ে আপ-টু-ডেট প্রযুক্তি-ভিত্তিক সফটওয়্যার সমাধান প্রদানের জন্য নিরলসভাবে কাজ করে যা ব্যবহারকারীর অভিজ্ঞতা, নিরাপত্তা এবং মুনাফা নিশ্চিত করে।</p>
-                            <p className="last">আমাদের ১০০ %  গ্রাহক সন্তুষ্টি আমাদের খুব অল্প সময়ের মধ্যে সফটওয়্যার শিল্পের শীর্ষস্থানীয় অবস্থানে নিয়ে এসেছে।  </p>
-                            <Link className="getInTouch"  to="contact-us" spy={true} smooth={true} offset={-100} duration={500}>যোগাযোগ করুন</Link>
+                            <p className="first">お客様のお金を大切にし、常に一流の品質のソフトウェアソリューションを提供することをお約束します。お客様のために弊社の開発者はスムーズなユーザー体験、セキュリティ、および収益性を保証する最新技術に基づくソフトウェアソリューションを提供するために絶え間なく努力しています。</p>
+                            <p className="last">顧客満足度100％で、短期間にソフトウェア業界をリードする地位を獲得しました。</p>
+                            <Link className="getInTouch"  to="contact-us" spy={true} smooth={true} offset={-100} duration={500}>お問い合わせはこちら</Link>
                         </div>
                     </div>
                     <div className="ourProject">
@@ -46,12 +46,12 @@ class Strength extends Component {
                                                 </VisibilitySensor>
                                             )}
                                           </CountUp>
-                                          <span>আমাদের প্রকল্পসমূহ</span>
+                                          <span>プロジェクト</span>
                                         </h3>
                                     </div>
 
                                     <div className="contain">
-                                        গত 5 বছরে, আমরা ১০০ % গ্রাহক সন্তুষ্টি নিশ্চিত করে ৮০+ প্রকল্প সফলভাবে সম্পন্ন করেছি।
+                                        過去5年間で、80以上のプロジェクトを成功させ、100％の顧客満足度を確保しています。
                                     </div>
                                 </div>
 
@@ -65,12 +65,12 @@ class Strength extends Component {
                                                 </VisibilitySensor>
                                             )}
                                           </CountUp>
-                                          <span>সমাপ্ত</span>
+                                          <span>完了</span>
                                         </h3>
                                     </div>
 
                                     <div className="contain">
-                                      আমরা এখন পর্যন্ত ৫০+ বিভিন্ন সহযোগী কোম্পানির সাথে সফল ভাবে কাজ সম্পন্ন করেছি। 
+                                      現在までに50社以上のパートナー企業との共同作業を成功させてきました。
                                     </div>
                                 </div>
                             </div>
@@ -85,12 +85,12 @@ class Strength extends Component {
                                                 </VisibilitySensor>
                                             )}
                                           </CountUp>
-                                          <span>আমাদের গ্রাহক</span>
+                                          <span>クライアント</span>
                                         </h3>
                                     </div>
 
                                     <div className="contain">
-                                        আমাদের ৬০+ হ্যাপি গ্রাহক আমাদের ভবিষ্যতের যাত্রায় আমাদের অনুপ্রেরণা।
+                                        60名以上の幸せなクライアントは弊社の今後の旅路のインスピレーションとなっています。
                                     </div>
                                 </div>
 
@@ -104,12 +104,12 @@ class Strength extends Component {
                                                 </VisibilitySensor>
                                             )}
                                           </CountUp>
-                                          <span>রিভিউ</span>
+                                          <span>レビュー</span>
                                         </h3>
                                     </div>
 
                                     <div className="contain">
-                                        আমরা সবসময় আমাদের সম্মানিত গ্রাহকদের প্রতি কৃতজ্ঞ আমাদের প্রতি বিশ্বাস রাখার জন্য এবং আমাদের সম্পর্কে তাদের সত্য অভিমত শেয়ার করার জন্য।
+                                        弊社を信じ続け率直な意見を聞かせてくれる立派なお客さまにいつも感謝しています。
                                     </div>
                                 </div>
                             </div>

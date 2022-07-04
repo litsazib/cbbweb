@@ -1,15 +1,19 @@
 // out: ../css/jp.css, compress: false, sourceMap: false
 
-body{
-    font-family: Verdana,Arial,sans-serif
+body {
+    font-family: Verdana, Arial, sans-serif
 }
 
-.navAnimated{
+.navAnimated {
     font-size: 14px;
 }
 
-.btnGetInTouch a{
+.btnGetInTouch a {
     font-size: 13px;
+}
+
+.contactUsSection .container .innerContain .contactFormSection .formSection .inputSection .labelWithInput .inputLabel {
+    width: 86px;
 }
 
 /*all heading*/
@@ -21,12 +25,23 @@ body{
 .faqSection .container .ourFaqContent .titleArea h2,
 .ourTeamSection .container .titleSection p,
 .contactUsSection .container .innerContain .contactFormSection .titleSection p,
-.ourBlog .container .titleSection p{
+.ourBlog .container .titleSection p {
     font-size: 35px;
 }
 
-.topSection .topContain .pioneer .pioneerText p{
+.ourBlog .container .containSection .rowItem .rowContain .link .bottomContain {
+    h3 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+}
+
+.topSection .topContain .pioneer .pioneerText p {
     font-size: 40px;
+
     @media (max-width: 1279px) {
         font-size: 3vw;
     }
@@ -36,61 +51,63 @@ body{
     }
 }
 
-.topSection .pcbText p{
+.topSection .pcbText p {
     font-size: 35px;
+
     @media (max-width: 1279px) {
         font-size: 3vw;
     }
 }
 
-.topSection .topContain .pioneer .description .lineUp{
+.topSection .topContain .pioneer .description .lineUp {
     font-size: 15px;
     line-height: 29px;
 }
 
-.serviceSection .container .banners .banner .owl-item .bannerItem h2{
+.serviceSection .container .banners .banner .owl-item .bannerItem h2 {
     font-size: 22px;
 }
 
-.ourTeamSection .container .innerBox .namePosition p{
+.ourTeamSection .container .innerBox .namePosition p {
     font-size: 14px;
 }
 
-.ourTeamSection .container .innerBox .namePosition h3{
+.ourTeamSection .container .innerBox .namePosition h3 {
     font-size: 12px;
 }
 
-.qualifiedSection .container .payFor .description .getInTouch{
+.qualifiedSection .container .payFor .description .getInTouch {
     font-size: 13px;
 }
 
-.serviceSection .container .banners .banner .owl-item .bannerItem p{
+.serviceSection .container .banners .banner .owl-item .bannerItem p {
     font-size: 15px;
 }
 
-.whatMakesUsDifferent .container .bottomSection .item .content{
+.whatMakesUsDifferent .container .bottomSection .item .content {
     font-size: 15px;
 }
 
 .qualifiedSection .container {
-    .payFor{
-        .description{
-            p{
+    .payFor {
+        .description {
+            p {
                 font-size: 15px;
             }
         }
     }
 
-    .ourProject{
-        .box{
-            .contain{
+    .ourProject {
+        .box {
+            .contain {
                 font-size: 15px;
             }
 
-            .title{
-                h3{
+            .title {
+                h3 {
                     font-size: 13px;
-                    .number{
+
+                    .number {
                         font-size: 33px;
                     }
                 }
@@ -99,15 +116,15 @@ body{
     }
 }
 
-.faqSection .container .optionsRap .whyOptions .optionsRight .faqContentsVessel .tab .content{
+.faqSection .container .optionsRap .whyOptions .optionsRight .faqContentsVessel .tab .content {
     font-size: 15px;
     line-height: 29px;
 }
 
 /*About us*/
-.aboutUsSection .container .aboutSectionDflex .rightContent{
-    .spinxConnect{
-        .spinxAccoTitle{
+.aboutUsSection .container .aboutSectionDflex .rightContent {
+    .spinxConnect {
+        .spinxAccoTitle {
             @media (max-width: 1120px) {
                 font-size: 1.5vw;
             }
@@ -120,19 +137,22 @@ body{
                 font-size: 13px;
             }
 
-            .showContent{
-                p{
+            .showContent {
+                p {
                     font-size: 15px;
+
                     @media (max-width: 1120px) {
                         font-size: 1.4vw;
                     }
+
                     @media (max-width: 768px) {
                         font-size: 15px;
                     }
                 }
             }
         }
-        .current{
+
+        .current {
             @media (max-width: 1120px) {
                 font-size: 1.5vw;
             }
@@ -147,4 +167,25 @@ body{
         }
     }
 }
+
 /*About us*/
+@media (max-width: 767px) {
+
+    .sidenav .closebtn {
+        font-size: 3rem;
+    }
+
+    .sidenav .spMenuLinks .btnGetInTouch a {
+        max-width: 100%;
+    }
+
+    .ourBlog {
+        .container {
+            .titleSection {
+                width: 95%;
+                margin: 0 auto;
+            }
+        }
+    }
+
+}

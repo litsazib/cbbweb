@@ -11,51 +11,51 @@ class Features extends Component {
         <div className="whatMakesUsDifferent clearfix">
           <div className="container">
               <div className="titleSection wow fadeInUp">
-                  <h3>কি আমাদের স্বতন্ত্র করে তোলে?</h3>
+                  <h3>何が違うのか。</h3>
               </div>
 
               <div className="bottomSection">
                   <div className="item wow fadeInUp" data-wow-delay=".2s">
                       <div className="imageTitle">
                           <div className="image"><img src={culture01} alt="icon_culture01" /></div>
-                          <div className="heading">কাজের সংস্কৃতি</div>
+                          <div className="heading">職場文化</div>
                       </div>
 
                       <div className="content">
-                        আমরা একটি ফ্লেক্সিবল, ক্যাজুয়াল, স্বাধীন, এবং ফলপ্রসূ কাজের সংস্কৃতি লালন করি। আমরা শিখতে, অগ্রসর হতে এবং বিকশিত হওয়ার জন্য আমাদের মূল কোম্পানির মধ্যে নিয়মিত আমাদের কর্মীদের বিনিময় করি।
+                        弊社柔軟で、カジュアルで、自律的で、やりがいのある職場文化を育みます。 学び、成長し、進化するために、親会社の間に定期的に従業員を交換しています。
                       </div>
                   </div>
 
                   <div className="item wow fadeInUp" data-wow-delay=".4s">
                       <div className="imageTitle">
                           <div className="image"><img src={icon_transparency} alt="icon_transparency03" /></div>
-                          <div className="heading">স্বচ্ছতা</div>
+                          <div className="heading">透明性</div>
                       </div>
 
                       <div className="content">
-                          আপনি আমাদের পরিষেবা, প্রতিশ্রুতি, সময়সীমা, এবং প্রকল্প বাজেট সম্পর্কে ১০০ % স্বচ্ছতা আশা করতে পারেন। তাই আপনাকে হঠাৎ কোনো বাজে চমকের জন্য চিন্তা করতে হবে না।
+                          弊社のサービス、コミットメント、納期、プロジェクト予算について、100％の透明性を期待できます。そのため、不測の事態を心配する必要はありません。
                       </div>
                   </div>
 
                   <div className="item wow fadeInUp" data-wow-delay=".6s">
                       <div className="imageTitle">
                           <div className="image"><img src={trust} alt="icon_trust02" /></div>
-                          <div className="heading">বিশ্বাস</div>
+                          <div className="heading">信頼</div>
                       </div>
 
                       <div className="content">
-                         আমাদের গ্রাহকের আস্থা আমাদের কাছে সর্বাধিক গুরুত্বপূর্ণ। আমরা আপনার ব্যবসায় সহায়তা করতে এবং আপনার সাফল্য নিশ্চিত করতে অক্লান্ত পরিশ্রম করতে সদা প্রস্তুত।
+                         クライアントの信頼は弊社にとって最優先事項です。 弊社はお客様のビジネスを支援し、御社の成功を確かなものにするためにたゆまぬ努力をするためにここにいます。
                       </div>
                   </div>
 
                   <div className="item wow fadeInUp" data-wow-delay=".8s">
                       <div className="imageTitle">
                           <div className="image"><img src={Reliability} alt="icon_Reliability04" /></div>
-                          <div className="heading">নির্ভরযোগ্যতা</div>
+                          <div className="heading">信頼性</div>
                       </div>
 
                       <div className="content">
-                          আমরা কেবল তেমন প্রতিশ্রুতিই করি যা আমরা রাখতে পারবো। আমাদের নির্ভরযোগ্যতা আমাদের গ্রাহকদের সাথে দুর্দান্ত বন্ধন ধরে রাখতে সহায়তা করে।
+                          弊社は守れる約束しかしません。弊社の信頼性はお客様の素晴らしい絆を築くのに役立ちます。
                       </div>
                   </div>
               </div>
