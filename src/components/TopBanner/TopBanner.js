@@ -112,7 +112,7 @@ class TopBanner extends Component {
 
             if(languages === "en"){
                 window.setTimeout(function(){
-                window.location.href = "./en";
+                window.location.href = "./";
                 }, 1000);
             }
             if(languages === "jp"){
