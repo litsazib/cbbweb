@@ -1,0 +1,15 @@
+{
+    "short_name": "Cybridge Bangladesh",
+    "name": "Cybridge Bangladesh Landing page",
+    "icons": [
+        {
+          "src": "images/logo.png",
+          "type": "image/png",
+          "sizes": "108x125"
+        }
+    ],
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#000000",
+    "background_color": "#ffffff"
+}
