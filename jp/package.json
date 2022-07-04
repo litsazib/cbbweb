@@ -1,6 +1,6 @@
 {
   "name": "cbb_web",
-  "homepage": "http://localhost/jp/",
+  "homepage": "http://localhost/cbbreact/jp/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

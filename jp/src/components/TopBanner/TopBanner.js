@@ -117,7 +117,7 @@ class TopBanner extends Component {
             }
             if(languages === "jp"){
                 window.setTimeout(function(){
-                window.location.href = "./jp";
+                window.location.href = "./";
                 }, 1000);
             }
             })
@@ -152,12 +152,12 @@ class TopBanner extends Component {
             }
             if(languages === "en"){
                 window.setTimeout(function(){
-                window.location.href = "/";
+                window.location.href = "../en";
                 }, 1000);
             }
             if(languages === "jp"){
                 window.setTimeout(function(){
-                window.location.href = "/jp";
+                window.location.href = "./";
                 }, 1000);
             }
             })
